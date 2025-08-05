@@ -17,8 +17,12 @@ rustup default stable-x86_64-pc-windows-gnu
 Confirming that it is the selected one (in Command Prompt, as Terminal will flash open a new window then close it):
 
 ```
-cmd /k rustup show
+rustup show
+```
 
+Output:
+
+```
 Default host: x86_64-pc-windows-msvc
 rustup home:  C:\Users\DoctorBlue\.rustup
 
