@@ -34,3 +34,11 @@ active because: it's the default toolchain
 installed targets:
   x86_64-pc-windows-gnu
 ```
+
+## Random Notes
+
+### Compile with Warnings as Errors
+
+```
+rustc .\main.rs -D warnings
+```
