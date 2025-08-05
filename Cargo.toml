@@ -1,5 +1,5 @@
 [package]
-name = "RustRoverSandbox"
+name = "rust-sandbox"
 version = "0.1.0"
 edition = "2024"
 
