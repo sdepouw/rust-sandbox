@@ -87,4 +87,4 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain \
 
 (Note: `mingw-w64-ucrt-x86_64-nasm` may have been for an unrelated package that the user on StackOverflow was using)
 
-See also: [The Rust Book segment on Windows](https://rust-lang.github.io/rustup/installation/windows.html)
+See also: [The Rustup Book segment on Windows](https://rust-lang.github.io/rustup/installation/windows.html)
