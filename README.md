@@ -43,6 +43,15 @@ installed targets:
 
 ### Compile with Warnings as Errors
 
+See [Lint Levels](https://doc.rust-lang.org/rustc/lints/levels.html). `-D` Deny allows overrides of lint things.
+`-F` Forbid completely forbids it from being anything less than an error.
+
 ```
 rustc .\main.rs -D warnings
+```
+
+Using Cargo (`clippy` is equivalent to `check`, but accepts the Deny flag):
+
+```
+cargo clippy -- -D warnings
 ```
